@@ -1,0 +1,110 @@
+<htm>
+    <head>
+        <title>webpage</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                margin: 0px;
+                outline: 0px;
+                padding: 0px;
+            }
+            nav{display: flex;
+                width:100%;
+                height: 20vh;
+                background-color: white;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .left img{
+                width: 180px;
+                height: 110px;
+                margin: 10px;
+            }
+            .right{display:flex;}
+
+            .right div{
+                padding-right: 20px;
+            }
+            .right div a{
+                color:olive
+            }
+            .icon{
+                position: relative;
+            }
+            .fa-period{
+                color: green;
+               font-size: 20px;
+               top:20px;
+            }
+            .ban{
+                width:100%;
+                height: 80vh;
+                background: linear-gradient(rgba(200,60,70,0.5),rgba(180,70,90,50%)), url('kala.jpg');
+                background-size: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cont{display: flex;
+                flex-direction: column;
+                height: 100px;
+                justify-content: space-between;
+                align-items: center;
+                
+                
+            }
+            .cont h1{
+                color: orangered;
+                font-size: 40px;
+            }
+            .cont p{
+                color:white;
+                font-size: 20px;
+                padding-top: 10px;
+            }
+            .cont button{
+                color:white;
+                background: transparent;
+                padding: 5px;
+                border: 3px solid cornflowerblue;
+                border-radius: 10px;
+                margin-top: 15px;
+            }
+            .ftr{
+                background-color: brown;
+                width: 100%;
+            }
+            .ftr div{
+                text-align:center;
+                color: black;
+                font-size: 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="left"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGM_ZRuacGQfQ/company-logo_200_200/0/1619091711681?e=2159024400&v=beta&t=aeeMx_RhPa3wTykTuOoCiI58JNsUbXAzxQjtBNMrQPQ" alt="logo"/></div>
+            <div class="right">
+                <div><a href="#"><i class="fa-solid fa-house"></i>Home</a></div>
+                <div><a href="#"><i class="fa-solid fa-address-card"></i>About</a></div>
+                <div><a href="#"><i class="fa-solid fa-book"></i>Courses</a></div>
+                <div><a href="#"><i class="fa-solid fa-address-book"></i>Contact</a></div>
+                <div><a href="#">Login</a></div>
+                <div class="icon">
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+        </nav>
+        <div class="ban">
+            <div class="cont">
+            <h1>Indias No1 training institue</h1>
+            <p>To become a full-stack developer now you can join with us</p>
+            <button>click me to join</button>
+            </div>
+        </div>
+        <footer class="ftr" >
+            <div>@copyright reseved to xyz.com</div>
+        </footer>
+    </body>
+</htm>
